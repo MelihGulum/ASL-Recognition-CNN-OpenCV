@@ -21,7 +21,7 @@ First things first we should some pre-process before training. [One hot encoding
 
 |  |  |   
 | --- | --- |
-| <img src="https://user-images.githubusercontent.com/81585804/168676983-3094ac59-9b7b-4f6e-97f2-3908624eae0c.png" width="350" height="250">| <img src="https://user-images.githubusercontent.com/81585804/168677085-43356f35-aed3-4e2d-b010-cec958e7a4d3.png" width="350" height="250">| %99.609 | %40.46 |
+| <img src="https://user-images.githubusercontent.com/81585804/168676983-3094ac59-9b7b-4f6e-97f2-3908624eae0c.png" width="500" height="300">| <img src="https://user-images.githubusercontent.com/81585804/168677085-43356f35-aed3-4e2d-b010-cec958e7a4d3.png" width="500" height="300">| %99.609 | %40.46 |
 
 
 Finally here some different training result:
