@@ -1,7 +1,9 @@
 # ASL Recognition CNN OpenCV
 
 In this project, I wanted to raise awareness for the hearing impaired. Do not forget every learning starts with the alphabet. You can make predictions about the **American Sign Language Alphabet** to the model by camera. So let's dig out the project some more.
-<img src="https://user-images.githubusercontent.com/81585804/168675071-f64e8df6-d62c-42af-a44b-7b554d3212cf.png" width="100" height="100">
+
+
+<img src="https://user-images.githubusercontent.com/81585804/168675071-f64e8df6-d62c-42af-a44b-7b554d3212cf.png" width="500" height="500">
 
 I cover this project on the three step.
 * About Dataset
@@ -18,6 +20,10 @@ First things first we should some pre-process before training. [One hot encoding
 
 <img src="https://user-images.githubusercontent.com/81585804/168676983-3094ac59-9b7b-4f6e-97f2-3908624eae0c.png" width="100" height="100">
 <img src="https://user-images.githubusercontent.com/81585804/168677085-43356f35-aed3-4e2d-b010-cec958e7a4d3.png" width="100" height="100">
+|  |  |   
+| --- | --- |
+| <img src="https://user-images.githubusercontent.com/81585804/168676983-3094ac59-9b7b-4f6e-97f2-3908624eae0c.png" width="100" height="100">| <img src="https://user-images.githubusercontent.com/81585804/168677085-43356f35-aed3-4e2d-b010-cec958e7a4d3.png" width="100" height="100">| %99.609 | %40.46 |
+
 
 Finally here some different training result:
 
@@ -38,7 +44,9 @@ Then CNN is implemented to the OpenCV. But predictions were way ridiculous. Here
 * Then the idea of drawing a square came to my mind. Unfortunately that's a another fail. Model took the whole window again.
 * Finally ı managed the crop the square. That's why prediction only works in the square.
 
-<img src="https://user-images.githubusercontent.com/81585804/168678162-4722404a-1fd3-44d9-8f6e-ab90ce95abb4.jpeg" width="100" height="100">
+
+
+<img src="https://user-images.githubusercontent.com/81585804/168678162-4722404a-1fd3-44d9-8f6e-ab90ce95abb4.jpeg" width="500" height="500">
 
 
 ##4. How to run 
