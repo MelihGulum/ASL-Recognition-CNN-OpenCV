@@ -1,11 +1,11 @@
 # ASL Recognition CNN OpenCV
 
-   In this project, I wanted to raise awareness for the hearing impaired. Do not forget every learning starts with the alphabet. You can make predictions about the **American Sign Language Alphabet** to the model by camera. So let's dig out the project some more.
+   In this project, I wanted to raise awareness for the hearing impaired. Do not forget every learning starts with the alphabet. You can make predictions about the ***American Sign Language Alphabet*** to the model by camera. So let's dig out the project some more.
 
 
 <img src="https://user-images.githubusercontent.com/81585804/168675071-f64e8df6-d62c-42af-a44b-7b554d3212cf.png" width="250" height="250">
 
-I cover this project on the three step.
+I cover this project on the four step.
 * About Dataset
 * Deep Learning - CNN
 * OpenCV
@@ -24,7 +24,7 @@ First things first we should some pre-process before training. [One hot encoding
 | <img src="https://user-images.githubusercontent.com/81585804/168676983-3094ac59-9b7b-4f6e-97f2-3908624eae0c.png" width="500" height="300">| <img src="https://user-images.githubusercontent.com/81585804/168677085-43356f35-aed3-4e2d-b010-cec958e7a4d3.png" width="500" height="300">| %99.609 | %40.46 |
 
 
-Finally here some different training result:
+**Finally here some different training result:**
 
 | OPTIMIZER | EPOCH | TEST ACCURACY | EVALUATION ACCURACY |
 | --- | --- | --- | --- |
@@ -36,7 +36,7 @@ Finally here some different training result:
 ***Lack of hardware such as GPU and having a large datasets, ı use Google Colaboratory and suggest you to use that kind of cloud systems***
 
 ## 3. OpenCV
-Now, it is time for the **real-time** predictions. But there was a problem. Hand detection is not simple as face detection nor common. To overcome this difficulty, I first detected the hand from the camera (hand_detection.py).
+Now, it is time for the ***real-time*** predictions. But there was a problem. Hand detection is not simple as face detection nor common. To overcome this difficulty, I first detected the hand from the camera (hand_detection.py).
 Then CNN is implemented to the OpenCV. But predictions were way ridiculous. Here is the reason of it :point_down: : 
 
 * I thought that if ı make the sign to the window (which is opened by Opencv), model can easily predict. But it didn't turn out the way I thought. Because model took whole the window as an input. Including myself, door etc.
