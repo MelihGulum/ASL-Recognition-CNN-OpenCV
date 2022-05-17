@@ -18,7 +18,7 @@ I use two different dataset for this project. The first one is, [asl-alphabet](h
 Second dataset is, [asl-alphabet-test](https://www.kaggle.com/datasets/danrasband/asl-alphabet-test), is used for evaluating. These two dataset is too diffrent from eachother. Later we see some consequence of this.
 
 ## 2. Deep Learning - CNN
-First things first we should some pre-process before training. [One hot encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) and [RGB normalization](https://akash0x53.github.io/blog/2013/04/29/RGB-Normalization/). These links are usefull if you don't know about them. Tradionally CNN is for mostly used for Image Processing and ı kept this tradition. The following two figure are Confusion Matrix of respectively test and evaluation.  Before, ı mention about the difference about two dataset.  That is the consequence of difference. Test images are so similar with the training set so accuracy and values of Confusion matrix is so high.  On the other hand evaluation set is so much diffrent than training that is the reasen why evaluation scores too low.
+First things first we should some pre-process before training. [One hot encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) and [RGB normalization](https://akash0x53.github.io/blog/2013/04/29/RGB-Normalization/). These links are usefull if you don't know about them. Tradionally CNN is for mostly used for Image Processing and i kept this tradition. The following two figure are Confusion Matrix of respectively test and evaluation.  Before, i mention about the difference about two dataset.  That is the consequence of difference. Test images are so similar with the training set so accuracy and values of Confusion matrix is so high.  On the other hand evaluation set is so much diffrent than training that is the reasen why evaluation scores too low.
 
 
 |  |  |   
@@ -45,9 +45,9 @@ First things first we should some pre-process before training. [One hot encoding
 Now, it is time for the ***real-time*** predictions. But there was a problem. Hand detection is not simple as face detection nor common. To overcome this difficulty, I first detected the hand from the camera (hand_detection.py).
 Then CNN is implemented to the OpenCV. But predictions were way ridiculous. Here is the reason of it :point_down: : 
 
-* I thought that if ı make the sign to the window (which is opened by Opencv), model can easily predict. But it didn't turn out the way I thought. Because model took whole the window as an input. Including myself, door etc.
+* I thought that if i make the sign to the window (which is opened by Opencv), model can easily predict. But it didn't turn out the way I thought. Because model took whole the window as an input. Including myself, door etc.
 * Then the idea of drawing a square came to my mind. Unfortunately that's a another fail. Model took the whole window again.
-* Finally ı managed the crop the square. That's why prediction only works in the square.
+* Finally i managed the crop the square. That's why prediction only works in the square.
 
 
 <p align="center">
