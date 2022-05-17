@@ -48,10 +48,12 @@ Then CNN is implemented to the OpenCV. But predictions were way ridiculous. Here
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/81585804/168678162-4722404a-1fd3-44d9-8f6e-ab90ce95abb4.jpeg" width="250" height="250">
+<img src="https://user-images.githubusercontent.com/81585804/168735247-3b0bc84f-833a-44e5-8e54-2f7957dee525.jpeg" width="250" height="250">
 </p>
    
-   
+* I made it this square brackets to make basic words and abbrevations. If there are 10 consecutive identical signs, it appends it to a list. {: .note}
+ 
+
 
 ## 4. How to run 
  ```console
