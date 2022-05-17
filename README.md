@@ -31,9 +31,12 @@ First things first we should some pre-process before training. [One hot encoding
 | | OPTIMIZER | EPOCH | TEST ACCURACY | EVALUATION ACCURACY |
 | --- | --- | --- | --- | --- |
 | MODEL-1 | rmsprop | 5 | %99.609 | %40.46 |
-| **MODEL-2** | **rmsprop** | **10** | **%99.989** | **%52.529** |
+| MODEL-2 | rmsprop | 10 | %99.989 | %52.529 |
 | MODEL-3 | adam | 5 | %99.494 | %38.506 |
 | MODEL-4 | adam | 10 | %99.805 | %38.62 |
+
+
+**NOTE:** Model-2 has been selected because here we compare the evaluation accuracies. 
 
 
 ***Lack of hardware such as GPU and having a large datasets, ı use Google Colaboratory and suggest you to use that kind of cloud systems***
