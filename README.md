@@ -67,7 +67,7 @@ $ git clone https://github.com/MelihGulum/ASL-Recognition-CNN-OpenCV.git
 
 2- Load the dependencies of the project
 
-**NOTE:** This dependencies not including the Deep Learning part. Colab meet all dependencies.
+**NOTE:** This dependencies not including the Deep Learning part. Colab meet all dependencies (such as tensorflow).
 
  ```console
 pip install -r requirements.txt
