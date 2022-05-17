@@ -28,12 +28,12 @@ First things first we should some pre-process before training. [One hot encoding
 
 **Finally here some different training result:**
 
-| OPTIMIZER | EPOCH | TEST ACCURACY | EVALUATION ACCURACY |
-| --- | --- | --- | --- |
-| rmsprop | 5 | %99.609 | %40.46 |
-| rmsprop | 10 | %99.989 | %52.529 |
-| adam | 5 | %99.494 | %38.506 |
-| adam | 10 | %99.805 | %38.62 |
+| | OPTIMIZER | EPOCH | TEST ACCURACY | EVALUATION ACCURACY |
+| --- | --- | --- | --- | --- |
+| MODEL-1 | rmsprop | 5 | %99.609 | %40.46 |
+| **MODEL-2** | rmsprop | 10 | %99.989 | %52.529 |
+| MODEL-3 | adam | 5 | %99.494 | %38.506 |
+| MODEL-4 | adam | 10 | %99.805 | %38.62 |
 
 
 ***Lack of hardware such as GPU and having a large datasets, ı use Google Colaboratory and suggest you to use that kind of cloud systems***
