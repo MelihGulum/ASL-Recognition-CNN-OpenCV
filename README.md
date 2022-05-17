@@ -66,7 +66,7 @@ Then CNN is implemented to the OpenCV. But predictions were way ridiculous. Here
 $ git clone https://github.com/MelihGulum/ASL-Recognition-CNN-OpenCV.git
 ```
 
-2- Load the dependencies of the project
+2. Load the dependencies of the project
 
 **NOTE:** This dependencies not including the Deep Learning part. Colab meet all dependencies (such as tensorflow).
 
@@ -74,4 +74,4 @@ $ git clone https://github.com/MelihGulum/ASL-Recognition-CNN-OpenCV.git
 pip install -r requirements.txt
 ```
 
-3- Now you can run ASL_Recognition.py. But if you want you can run .ipynb and you can build your own model. It is up to you. 
+3. Now you can run ASL_Recognition.py. But if you want you can run .ipynb and you can build your own model. It is up to you. 
