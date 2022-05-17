@@ -60,6 +60,7 @@ Then CNN is implemented to the OpenCV. But predictions were way ridiculous. Here
 
 ## 4. How to run 
 
+
 1. Fork this repository.
  ```console
 $ git clone https://github.com/MelihGulum/ASL-Recognition-CNN-OpenCV.git
